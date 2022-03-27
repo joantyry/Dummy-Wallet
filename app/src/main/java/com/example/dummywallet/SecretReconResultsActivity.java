@@ -35,11 +35,12 @@ public class SecretReconResultsActivity extends AppCompatActivity {
 
        // }
         if (bool.equals("true")){
-            button.setText("ReconTime = "+ ReconTime + "\n" +"SecretTime = " + SecretTime +"\n"+ "BVTauTime = " +BVTauTime +"\n"+ "HashTime = " +HashTime +"\n"+"Status:"+"Success!") ;
+           // button.setText("ReconTime = "+ ReconTime + "\n" +"SecretTime = " + SecretTime +"\n"+ "BVTauTime = " +BVTauTime +"\n"+ "HashTime = " +HashTime +"\n"+"Status:"+"Success!") ;
+            button.setText("Status: Success!");
 
         }
         else {
-            button.setText("Failed!");
+            button.setText("Status: Failed!");
         }
 
      /*  if (bool.equals(true))

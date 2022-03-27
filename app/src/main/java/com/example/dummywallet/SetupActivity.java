@@ -29,6 +29,8 @@ public class SetupActivity extends AppCompatActivity {
 
         //BigInteger TotalSetupTime = BigInteger.valueOf(Long.parseLong(EndTime)).subtract(BigInteger.valueOf(Long.parseLong(StartTime))) ;
 
-        button.setText("TotalSetupTime = " + SetupTime +"\n"+ "sharex_Time = " + sharex_Time +"\n"+ "sharePr_Time =" + sharePr_Time +"\n"+ "Ec_Time =" + Ec_Time +"\n"+ "SecretFile Deleted:" + bool) ;
+        //button.setText("TotalSetupTime = " + SetupTime +"\n"+ "sharex_Time = " + sharex_Time +"\n"+ "sharePr_Time =" + sharePr_Time +"\n"+ "Ec_Time =" + Ec_Time +"\n"+ "SecretFile Deleted:" + bool) ;
+        button.setText("Setup Success!");
+
     }
 }
